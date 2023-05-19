@@ -24,8 +24,26 @@
   text-align: center;
   gap: 2rem;
   
+  
 
 }
+
+.header{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 70px;
+  background-color: #085454;
+  
+}
+
+hr{
+  color: #FFB30D;
+  size: 1.5px;
+}
+
 .fields{
   height: 50px;
   align-items: baseline;

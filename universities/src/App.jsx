@@ -36,9 +36,17 @@ function App() {
   return (
 
     <div className="maincont">
+      <div className="header">
+        
+      <h3>University  countries</h3>
+      <h4>HOME</h4>
+      <h4>BLOG</h4>
 
+
+      </div>
+      <hr />
       <div className="top">
-          <h3>University finder from  respective countries</h3>
+          
           <div className="fields">
             <input onChange={change} type="text" />
 
