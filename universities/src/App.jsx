@@ -92,55 +92,6 @@ function App() {
 
 
 
-    // <div className="container">
-    //   <div className="home">
-    //     <div className="search">
-    //       <div>
-    //         <h1>SEARCH PANEL</h1>
-    //       </div>
-    //       <form>
-    //         <div className="">
-    //           <input
-    //             type="search"
-    //             placeholder="Search university using state"
-    //             onChange={onChangeHandler}
-    //           />
-    //           <button onClick={searchHandler}>Search</button>
-    //         </div>
-    //       </form>
-    //     </div>
-    //   </div>
-    //   <hr />
-    //   <div className="main">
-    //     <div className="count">
-    //       <h3>
-    //         {universities.length == 0
-    //           ? "No results found"
-    //           : universities.length + " Universities " + state}
-    //       </h3>
-    //     </div>
-
-    //     <div className="countries">
-    //       {state &&
-    //         universities.map((university, index) => (
-    //           <div className="country" key={index}>
-    //             <p>
-    //               <span>Name:</span>
-    //               {university.name}
-    //             </p>
-    //             <p>
-    //               <span>Domains:</span>
-    //               {university.domains[0]}
-    //             </p>
-    //             <p>
-    //               <span>Web Pages:</span>
-    //               {university.web_pages[0]}
-    //             </p>
-    //           </div>
-    //         ))}
-    //     </div>
-    //   </div>
-    // </div>
   );
 }
 
